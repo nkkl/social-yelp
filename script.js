@@ -48,11 +48,16 @@ $(function() {
 	});
 
 	var homeZones = function(x,y) {
-		if (x >= 34 && x <= 218) {	
-			if (y >= 215 && y <= 387) {				
+		if (y >= 215 && y <= 387) {				
+			if (x >= 34 && x <= 218) {	
 				$("#content").removeClass("home");
 				$("#content").addClass("search");
 			}
+		} else if (y >= 740 && y <= 860) {
+			$("#content").removeClass("home");
+			$("#content").addClass("altura");
+			$("#header").show();
+			$("#footer").show();
 		}
 	}
 

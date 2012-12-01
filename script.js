@@ -109,7 +109,7 @@ $(function() {
 
 	var callZones = function(x,y) {
 		if (y >= 769) {
-			$("#content").removeClass("#call");
+			$("#content").removeClass("call");
 			$("#content").addClass("altura");
 			$("#header").show();
 			$("#footer").show();

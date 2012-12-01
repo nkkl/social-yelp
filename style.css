@@ -2,7 +2,9 @@
 	border: none;
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #phone-body {
@@ -10,7 +12,8 @@
 	height: 960px;
 	margin: 2em auto;
 
-	border: 1px solid black;
+	position: relative;
+	overflow: hidden;
 }
 
 .home {
@@ -19,6 +22,10 @@
 
 .browse {
 	background-image: url("img/browse.png");
+}
+
+.search {
+	background-image: url("img/search.png");
 }
 
 .results {
@@ -45,6 +52,11 @@
 	width: 100%;
 	height: 40px;
 	background-image: url("img/phone_bar.png");
+
+	position: absolute;
+	top: 0;
+
+	z-index: 10;
 }
 
 #header {
@@ -52,11 +64,33 @@
 	height: 128px;
 	background-image: url("img/header_scrolldown.png");
 
-	border: 1px solid red;
+	position: absolute;
+	top: 0;
+
+	z-index: 2;
+}
+
+#content {
+	width: 640px;
+	height: 960px;
+	position: absolute;
+	z-index: 1;
+}
+
+#scroll-content {
+	display: none;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
 }
 
 #footer {
 	width: 100%;
 	height: 100px;
 	background-image: url("img/actionbar_bottom.png");
+
+	position: absolute;
+	bottom: 0;
+
+	z-index: 2;
 }

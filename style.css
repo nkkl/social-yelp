@@ -1,0 +1,62 @@
+* {
+	border: none;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+}
+
+#phone-body {
+	width: 640px;
+	height: 960px;
+	margin: 2em auto;
+
+	border: 1px solid black;
+}
+
+.home {
+	background-image: url("img/home.png");
+}
+
+.browse {
+	background-image: url("img/browse.png");
+}
+
+.results {
+	background-image: url("img/results.png");
+}
+
+.altura {
+	background-image: url("img/altura.png");
+}
+
+.sms-one {
+	background-image: url("img/sms-1.png");
+}
+
+.sms-two {
+	background-image: url("img/sms-2.png");
+}
+
+.sms-three {
+	background-image: url("img/sms-3.png");
+}
+
+#phonebar {
+	width: 100%;
+	height: 40px;
+	background-image: url("img/phone_bar.png");
+}
+
+#header {
+	width: 100%;
+	height: 128px;
+	background-image: url("img/header_scrolldown.png");
+
+	border: 1px solid red;
+}
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-image: url("img/actionbar_bottom.png");
+}

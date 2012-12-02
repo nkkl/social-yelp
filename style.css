@@ -22,7 +22,7 @@
 }
 
 .search {
-	background-image: url("img/search.png");
+	background-image: url("img/search.PNG");
 	height: 960px;
 }
 
@@ -37,22 +37,22 @@
 }
 
 .call {
-	background-image: url("img/call.png");
+	background-image: url("img/call.PNG");
 	height: 960px;
 }
 
 .sms-one {
-	background-image: url("img/sms-1.png");
+	background-image: url("img/sms-1.PNG");
 	height: 960px;
 }
 
 .sms-two {
-	background-image: url("img/sms-2.png");
+	background-image: url("img/sms-2.PNG");
 	height: 960px;
 }
 
 .sms-three {
-	background-image: url("img/sms-3.png");
+	background-image: url("img/sms-3.PNG");
 	height: 960px;
 }
 
